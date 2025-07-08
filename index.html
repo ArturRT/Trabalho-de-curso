@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <script defer src="/script/hamburger.js"></script>
+    <title>Gerador de curriculos</title>
+</head>
+<body>
+      <nav>
+        <div class="nav">
+        <div class="box">
+        <header>
+            <nav>
+                <a class="logo" href="home.html">JobTailor</a>
+                <button class="hamburger"></button>
+                <ul class="nav-list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="curriculos.html">Currículos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        </div>
+        </div>
+        <main class="hero"></main>
+    </nav>
+
+    <div>
+        <form id="formulario" >
+            Nome Completo: <input type="text" name="nome" placeholder="Digite seu nome">
+            E-mail: <input type="email" name="email" placeholder="Digite seu e-mail">
+            Telefone: <input type="tel" name="telefone" placeholder="Digite seu telefone">
+            Endereço: <input type="text" name="endereco" placeholder="Digite seu endereço">
+            Objetivo: <input type="text" name="objetivo" list="suggestions" placeholder="Digite seu objetivo">
+            Formação: <input type="text" name="formacao" placeholder="Digite sua formação">
+            Experiência: <input type="text" name="experiencia" placeholder="Digite sua experiência">
+            Habilidades: <input type="text" name="habilidades" placeholder="Digite suas habilidades">
+            <div class="container">
+                <div class="box">  
+                <button type="submit"><a href=""></a>Gerar Currículo</button>
+                </div>
+            </div">
+        </form>    
+    </div>
+<footer>
+    <p>Desenvolvido por: Artur luanderson</p>
+    <p>© 2023 JobTailor. Todos os direitos reservados.</p>
+    
+</footer>
+<datalist id="suggestions">
+    <option placeholder="importante">Quero estudar é me tornar alguém importante no mercado de  trabalho.</option>
+    <option>Estou trabalhando mas pretendo mudar de area pós estou em busca de novas oportunidades.</option>
+    <option>Nunca trabalhei é estou em busca do meu primeiro emprego, quero aprender e me desenvolver na empresa que eu entrar pós quero me tornar um proficional experiente.</option>
+</datalist>
+</body>
+<style>
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    form {
+        width: 100%;
+    }
+    input, button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+</style>
+</html>
